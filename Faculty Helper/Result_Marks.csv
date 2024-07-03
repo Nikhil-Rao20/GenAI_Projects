@@ -1,0 +1,25 @@
+,ID NUMBER,MCQ1,MCQ2,MCQ3,MCQ4,MCQ5,DQ1,DQ2,DQ3,DQ4,DQ5,CQ,Coding Reason,Code Output,Total
+3,3,1,1,0,1,1,1.5,2.0,2,1.5,2.0,9.0,"The student's code correctly demonstrates the usage of constructors, method overloading, and the 'this' keyword. However, the student made a mistake in the overloaded method `calcArea(double w, double h)` by not using the parameters `w` and `h` to calculate the area. This caused the third output to be incorrect. Everything else in the code and output is correct.","Area: 1.0
+Area: 12.0
+Area: 1.0
+",22.0
+2,1,1,1,1,0,1,1.5,1.5,2,1.5,2.0,9.0,"The student's output is mostly correct, but there is a mistake in the last line of the output. The area calculated with width 3 and height 7 should be 21.0, not 25.0. Hence, the student loses one mark for this incorrect output.","Area of r1: 1.0
+Area of r2: 20.0
+Area with width 3 and height 7: 21.0
+",21.5
+4,5,1,0,1,0,1,2.0,1.5,2,1.5,1.5,9.5,"The student has demonstrated the usage of constructors, method overloading, and the 'this' keyword. The default constructor and parameterized constructor are correctly implemented. The default values are incorrect in the default constructor. The student correctly calculates the area in the getArea() method, but there is a mistake in the overloaded getArea(double w, double h) method where the width and height parameters are not used. This results in incorrect output for the third rectangle area calculation. Hence, marks are deducted for the mistake in the method implementation which affects the output.","Area: 4.0
+Area: 21.0
+Area: 4.0
+",21.0
+1,2,1,0,0,0,1,1.5,2.0,2,1.5,2.0,10.0,No reason,"Area of r1: 1.0
+Area of r2: 20.0
+Area with width 3 and height 7: 21.0
+",21.0
+5,4,1,0,0,0,1,2.0,1.5,2,1.5,2.0,9.0,"The student's code is mostly correct in terms of implementing constructors, method overloading, and using the 'this' keyword. However, there is a mistake in the overloaded method `calcArea(double w, double h)` where the calculation should use the `w` and `h` parameters passed in, but instead, it is using the instance variables `width` and `height`. This mistake leads to incorrect output for the third instance calculation.","Area: 1.0
+Area: 12.0
+Area: 1.0
+",20.0
+0,6,0,0,1,0,0,1.5,2.0,2,1.5,1.5,10.0,No reason,"Area of r1: 1.0
+Area of r2: 20.0
+Area with width 3 and height 7: 21.0
+",19.5
